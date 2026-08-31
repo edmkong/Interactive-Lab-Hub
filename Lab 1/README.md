@@ -3,9 +3,9 @@
 _This project is to be done in teams of 2._
 
 **NAME OF BOTH COLLABORATOR(S) HERE**
-
+Edmond Kong (eck67)
 **THE MASTERWORK YOU DREW FROM THE HAT:**
-
+Hand from Above (2009)
 ---
 
 One way to understand greatness is to look to the greats. Just as painters learn
@@ -92,18 +92,24 @@ the interaction*:
 **Describe your masterwork here, in your own words. What is the core interaction
 someone would recognize it by?**
 
+The Hand from Above project was created by Chris O'Shea in 2009. This was a public exhibition where a camera captured live video of the street below
+a giant screen. So as pedestrians walked into the range of the camera, the screen would also show the pedestrians in real time. The screen would have a giant hand that would interact with the pedestrians in different ways, such as tickling, miniaturizing, and picking up people to move them off-screen.
+
+User input is their movement in the camera frame. As they walk into the frame they become part of the display and are now able to be manipulated by the giant hand. The hand is able to perform actions on the people it detects. One of the ideas for this project was to make people look like they weren't "on top of the food chain", so people don't really get to choose the hand's actions and appear powerless in front of it. Users can just watch and react to the hand as it toys with them.
+
+Since this installment was shown back in 2009 and based on the audience reactions from the videos I could find, I imagine it was an early example of an interactive screen that could make people feel like they are controlled by an external force. The most memorable interaction is where the hand picks up a person and drags them out of the screen. Even if the person is physically standing in the frame, we wouldn't see the person in the screen afterwards.
+
+The strength is the surprise factor of the giant hand. When the hand just moves around the screen and tickles a person, this is just a regular computer vision trick. But when the hand picks someone up and the person disappears from the screen, people are very surprised. This is also one of the weaknesses of the exhibit: people can only be surprised once after they know what's coming next. Another weakness is that the interactions are restricted by a fixed point in space. The hand can only interact with people that stand in the camera's frame.
+
 ## Part A. Plan
 
 For your masterwork, reconstruct the interaction as a scene:
 
-- **Setting:** Where and when does this interaction happen? (a jungle, a kitchen,
-  a spaceship corridor, a nightclub, a harbor at night)
-- **Players:** Who is involved? Who else is present? Think through everyone in
-  the setting, not just the primary user.
-- **Activity:** What is happening between the players and the light?
-- **Goals:** What is each player trying to do?
+- **Setting:** Where and when does this interaction happen? The interaction takes place on the street. For this lab, we chose to do it inside a room to better see the light.
+- **Players:** Who is involved? Who else is present? A pedestrian, a hidden wizard operating the light, and the audience, who will be looking at the interaction
+- **Activity:** What is happening between the players and the light? As the pedestrian moves into the range, i.e the camera frame, of the light, the light will perform certain actions depending on the intensity of the light and flickering.
+- **Goals:** What is each player trying to do? The player just trying to cross to the other side of the street, but it encounters the light, or the Hand, and is then forced to interact with it. The audience wants to understand what the light actually does.
 
-**Describe your setting, players, activity, and goals here.**
 
 Now **sketch a 3 storyboards** of the interaction you are recreating. (The number may depend on the thing you drew, but stretch your thinking!) They
 don't need to be beautiful, but they must capture and communicate not only the behavior of the light, but how it affects
@@ -112,7 +118,8 @@ and the people around it. If you're new to storyboarding, read
 
 **Include pictures of your storyboards here.**
 
-Use the storyboards to decide what interaction to prototype.
+![Storyboards](storyboard.jpg)
+The three storyboards are included above. Interaction #3 will be the one that's acted out in Part B.
 
 **Summarize the feedback you got here.**
 
@@ -123,11 +130,15 @@ is doing what you've scripted — a person can wave a flashlight, or you can nar
 it aloud.
 
 **Are there things that seemed better on paper than when acted out?**
+The intensity of the light is difficult to capture in video. The original work had a giant hand, but it is challenging to
+replicate this with just a light. 
 
 **Did new ideas about the piece surface once you were on your feet?**
+One idea was to have a large paper cutout of a hand, which would then be illuminated by the phone behind it. That way, we
+still have an image of a hand but light can be present in the interaction.
 
 **Are there key moments in the interaction where things could go in a different direction?**
-Iterate your storyboards to capture key non-sequential aspects of the interaction. 
+The audience may be confused about the relationship between the light and the pedestrian. Without narration of the events that go on, the audience won't know that it is the light that is controlling the person. 
 
 ## Part C. Prototype the Light (light first!)
 
@@ -154,6 +165,8 @@ video feed of whichever scene you want to capture.)
 
 **Include your first attempts at recording the wizarded set-up here.**
 
+![Wizarded set-up](setup.JPG)
+
 ## Part E. (optional) Costume the Device
 
 Only now should you worry about what the device looks like. Costume your phone so it reads
@@ -165,8 +178,11 @@ Is water a danger? Does it need to be loud and bright for an emergency, or quiet
 and calm for a bedroom?
 
 **Include sketches/photos of what your device might look like here.**
+The phone can be costumed with a cutout of a hand, similar to the one in the original work. 
 
 **What concerns or opportunities shaped the way you designed its look?**
+The cutout of the hand will be static, so it still won't be able to do dynamic movements such as pinching
+or waving which we can see in the video.
 
 ## Part F. Record
 
@@ -176,9 +192,12 @@ who doesn't should come away understanding what it's famous for. How might you i
 
 **Include your video here.**
 
-**Please indicate who you collaborated with on this lab.** Be generous in
-acknowledging their contributions, and credit any other influences (YouTube,
-Github, Twitter, a friend who lent you a lamp) that informed your recreation.
+https://github.com/edmkong/Interactive-Lab-Hub/raw/Fall2026/Lab%201/video.mp4
+
+**Please indicate who you collaborated with on this lab.** 
+Melody Huang (yh2353), as the wizard holding the light.
+Jacey Hu (ch2296), as the actor in the sketch.
+
 
 ---
 
