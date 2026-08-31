@@ -3,8 +3,11 @@
 _This project is to be done in teams of 2._
 
 **NAME OF BOTH COLLABORATOR(S) HERE**
+
 Edmond Kong (eck67)
+
 **THE MASTERWORK YOU DREW FROM THE HAT:**
+
 Hand from Above (2009)
 ---
 
