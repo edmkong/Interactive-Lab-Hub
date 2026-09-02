@@ -125,7 +125,7 @@ and the people around it. If you're new to storyboarding, read
 The three storyboards are included above. Interaction #3 will be the one that's acted out in Part B.
 
 **Summarize the feedback you got here.**
-
+The collaborators for my lab mentioned that the light interaction was a little difficult to follow. So we discussed ideas on how to make the light more visible. We settled on having a darker color to symbolize the light was "on". So instead of a light color we used dark magenta.
 
 ## Part B. Act out the Interaction
 
@@ -230,6 +230,7 @@ The reviewer liked how the light and person moved together, which made the seque
 Feedback 3: Xiaoxi Xu 
 Github link: https://github.com/xuxx21/Interactive-Lab-Hub/tree/Fall2026/Lab%201 
 The reviewer mentioned how I can play around with the intensity of the light to demonstrate more interactions. The dragging is only side by side, but if I can move forwards and backwards that would show the control a little better. 
+
 ## Remix, Update, or Critique the Master
 
 Now that you understand your masterwork from the inside, respond to it. Do the
