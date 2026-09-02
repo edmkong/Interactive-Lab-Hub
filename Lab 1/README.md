@@ -126,6 +126,7 @@ The three storyboards are included above. Interaction #3 will be the one that's 
 
 **Summarize the feedback you got here.**
 
+
 ## Part B. Act out the Interaction
 
 Physically act out the interaction you planned. For now, just pretend the light
@@ -218,6 +219,17 @@ wasn't clear.
 **Who were the other groups you kibitzed with? Add links to their project pages here.**
 **Summarize the feedback you got from your partners here.**
 
+Feedback 1: Dhanu
+Github link: http://github.com/rdhanushikka/Interactive-Lab-Hub/tree/Fall2026/Lab%201 
+Reviewer commented that the video with the side-by-side Tinkerbelle and interaction was nice. One criticism is that the third storyboard wasn't too clear in depicting the interaction. Specifically, it isn't clear that the user is "trapped" by the light once the light is shining above them, and it is the light that now "controls" the person. Only after watching the video was the interaction clear.
+
+Feedback 2: Jacey
+Github link: https://github.com/ht534-ui/Interactive-Lab-Hub 
+The reviewer liked how the light and person moved together, which made the sequence easy to follow. One suggestion for the third storyboard is that int he third panel the light isn't lit up, so they were confused when they read the caption underneath. It took them a moment to realize that the person could actually move after the light was off. However, when they saw the video it was clear to them.
+
+Feedback 3: Xiaoxi Xu 
+Github link: https://github.com/xuxx21/Interactive-Lab-Hub/tree/Fall2026/Lab%201 
+The reviewer mentioned how I can play around with the intensity of the light to demonstrate more interactions. The dragging is only side by side, but if I can move forwards and backwards that would show the control a little better. 
 ## Remix, Update, or Critique the Master
 
 Now that you understand your masterwork from the inside, respond to it. Do the
