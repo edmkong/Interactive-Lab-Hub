@@ -225,7 +225,7 @@ Reviewer commented that the video with the side-by-side Tinkerbelle and interact
 
 Feedback 2: Jacey
 Github link: https://github.com/ht534-ui/Interactive-Lab-Hub 
-The reviewer liked how the light and person moved together, which made the sequence easy to follow. One suggestion for the third storyboard is that int he third panel the light isn't lit up, so they were confused when they read the caption underneath. It took them a moment to realize that the person could actually move after the light was off. However, when they saw the video it was clear to them.
+The reviewer liked how the light and person moved together, which made the sequence easy to follow. One suggestion for the third storyboard is that in the third panel the light isn't lit up, so they were confused when they read the caption underneath. It took them a moment to realize that the person could actually move after the light was off. However, when they saw the video it was clear to them.
 
 Feedback 3: Xiaoxi Xu 
 Github link: https://github.com/xuxx21/Interactive-Lab-Hub/tree/Fall2026/Lab%201 
