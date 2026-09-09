@@ -201,7 +201,7 @@ who doesn't should come away understanding what it's famous for. How might you i
 
 **Include your video here.**
 
-https://github.com/edmkong/Interactive-Lab-Hub/raw/Fall2026/Lab%201/video.mp4
+[Video sketch](https://github.com/edmkong/Interactive-Lab-Hub/blob/Fall2026/Lab%201/video.mp4)
 
 **Please indicate who you collaborated with on this lab.** 
 Melody Huang (yh2353), as the wizard holding the light.
@@ -278,7 +278,7 @@ The video starts of with the hand using its powers to grow the tree. The backdro
 The hand is not happy with this and starts to chase the cat. During the chase, the wizard changes the backdrop to red and also plays an alarm sound. The hand eventually picks up the cat
 and drags it outside of the forest. As the hand leaves, the backdrop changes again to green. Finally the cat leaves.
 
-https://github.com/edmkong/Interactive-Lab-Hub/raw/Fall2026/Lab%201/remix.mp4
+[Remix video](https://github.com/edmkong/Interactive-Lab-Hub/blob/Fall2026/Lab%201/remix.mp4)
 
 ---
 
