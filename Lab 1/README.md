@@ -135,14 +135,18 @@ it aloud.
 
 **Are there things that seemed better on paper than when acted out?**
 The intensity of the light is difficult to capture in video. The original work had a giant hand, but it is challenging to
-replicate this with just a light. 
+replicate this with just a light. It is also difficult to have a hand "over" the light since it will block the light. 
 
 **Did new ideas about the piece surface once you were on your feet?**
 One idea was to have a large paper cutout of a hand, which would then be illuminated by the phone behind it. That way, we
-still have an image of a hand but light can be present in the interaction.
+still have an image of a hand but light can be present in the interaction. A limitation that we have when acting this out is 
+that we don't have a giant LED screen like the original masterwork. So instead, the frame of the video will be the area in which
+the light can interact with a person.
 
 **Are there key moments in the interaction where things could go in a different direction?**
 The audience may be confused about the relationship between the light and the pedestrian. Without narration of the events that go on, the audience won't know that it is the light that is controlling the person. 
+When the light turns a different color, anything could happen because we don't know what if the color itself is significant other than indicating that something has changed. For example, what if the light is
+bright yellow instead of magenta?
 
 ## Part C. Prototype the Light (light first!)
 
@@ -170,6 +174,7 @@ video feed of whichever scene you want to capture.)
 **Include your first attempts at recording the wizarded set-up here.**
 
 ![Wizarded set-up](setup.JPG)
+This is the scene for the initial filming.
 
 ## Part E. (optional) Costume the Device
 
@@ -252,8 +257,32 @@ your response engages with what your master was really doing.
 **Document everything here — especially the storyboard and video. Photos of the
 prototype are great too.**
 
+One of the main weaknesses of the first attempts was that the portrayal of light as a controlling force is a little ambiguous. The audience won't know that
+the purpose of the light is at first. So instead of using light as a control object I wanted to instead
+use light to represent the mood of a scene and the the emotional state of the god-like hand. I made a cutout of a hand and introduced some other props in this next remix: 
+a tree and a small cat figurine which will be the main actor in the video. 
+
+![remix props](iteration2_2.jpg)
+
+The light is now just the backdrop. A phone will be facing the large monitor and recording as the set pieces (god hand, cat, tree) move in front of it. The wizard will be holding the 
+props, which are taped to chopsticks, and will also be playing audio from Tinkerbelle. With this setup, the behavior of the hand is communicated through audio, color, and movement.
+
+![remix stage setup](iteration2_1.jpg)
+
+One of the weaknesses of the original masterwork was that it is limited to one frame (a giant LED screen), so for this remix I wanted to give the sense that the range of control
+of the hand goes beyond one area. The concept is that this is a "god-like" hand that is protective of its environment. In this case, the environment it is guarding is a forest with a tree. 
+
+![Remix storyboard](storyboard2.jpg)
+
+The video starts of with the hand using its powers to grow the tree. The backdrop is green to represent peacefulness. A cat then walks into the forest and starts sleeping under the big tree.
+The hand is not happy with this and starts to chase the cat. During the chase, the wizard changes the backdrop to red and also plays an alarm sound. The hand eventually picks up the cat
+and drags it outside of the forest. As the hand leaves, the backdrop changes again to green. Finally the cat leaves.
+
+https://github.com/edmkong/Interactive-Lab-Hub/raw/Fall2026/Lab%201/remix.mp4
+
 ---
 
+The remixed video was created by myself. Since I did not have a partner for this lab I was not able to get actors for the video above.
 
 
 *Assignment lineage: this lab merges "Staging Interaction" (Interactive Lab Hub)
