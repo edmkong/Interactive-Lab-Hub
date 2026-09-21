@@ -251,8 +251,9 @@ face finally gets to smile.
 
 
 **Put the names of the people you gave feedback to here. (Even better, add links to their repos here!)**
-Group 1 - Rohil: https://github.com/rohilsaraf97/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md 
-Group 2 - Aurora: https://github.com/aurorajxshen/Interactive-Lab-Hub/tree/Fall2026/Lab%202
+Group 1 - Max Corkran: https://github.com/mc3223/Peppers-Ghost 
+Group 2 - Aurora Shen: https://github.com/aurorajxshen/Interactive-Lab-Hub/tree/Fall2026/Lab%202
+Group 3 - Serena Tsai: https://github.com/ht534-ui/Interactive-Lab-Hub/tree/Fall2026/Lab%202
 # Lab 2 Part 2
 
 ## Prep 
@@ -262,7 +263,7 @@ Group 2 - Aurora: https://github.com/aurorajxshen/Interactive-Lab-Hub/tree/Fall2
 2. Look at and give feedback on the Part E. for at least 3 other people in the class and get 3 people to comment on your Part E!)
 **Put the feedback for your ideas here.**
 
-Group 1 - Max Corkran:
+Group 1 - Max Corkran
 Link: https://github.com/mc3223/Peppers-Ghost 
 Feedback:I love the weekend countdown prison bars idea. It’s humorous in a rebellious sort of way, I think if you lean into the humor as much as possible there, then it’s certainly something I would use haha, even put on my desk at work if I were feeling brave
 
