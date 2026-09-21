@@ -293,7 +293,7 @@ smiley.py draws just the weekend smiley face from jail.py, with no bars and no c
 
 \*\*\***Take a video of your barely modified PiClock.**\*\*\*
 
-[Modified PiClock video](https://github.com/edmkong/Interactive-Lab-Hub/blob/Fall2026/Lab%202/video/modifiedclock.MOV)
+[Modified PiClock video](https://github.com/edmkong/Interactive-Lab-Hub/blob/Fall2026/Lab%202/modifiedclock.MOV)
 
 ## Now, make your own PiClock
 
@@ -310,7 +310,7 @@ Please look at jail.py for the code. fast_jail.py was used to speed up the clock
 
 Please look at final_video.mp4 for the PiClock video.
 
-[PiClock video](https://github.com/edmkong/Interactive-Lab-Hub/blob/Fall2026/Lab%202/video/final_video.mp4)
+[PiClock video](https://github.com/edmkong/Interactive-Lab-Hub/blob/Fall2026/Lab%202/final_video.mp4)
 
 \*\*\***Contributions**\*\*\*
 All members contributed equally to the assignment. Filming of the videos and idea generation was done through group discussions.
