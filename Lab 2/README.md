@@ -1,7 +1,8 @@
 # Interactive Prototyping: The Clock of Pi
 **NAMES OF COLLABORATORS HERE**
 Edmond Kong (eck67)
-Gabriella Yaulli Herrera (cgy4)
+Gabriela Yaulli Herrera (cgy4)
+Jacey Hu (ch2296)
 
 Does it feel like time is moving strangely during this semester?
 
@@ -250,7 +251,8 @@ face finally gets to smile.
 
 
 **Put the names of the people you gave feedback to here. (Even better, add links to their repos here!)**
-
+Group 1 - Rohil: https://github.com/rohilsaraf97/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.md 
+Group 2 - Aurora: https://github.com/aurorajxshen/Interactive-Lab-Hub/tree/Fall2026/Lab%202
 # Lab 2 Part 2
 
 ## Prep 
@@ -260,29 +262,37 @@ face finally gets to smile.
 2. Look at and give feedback on the Part E. for at least 3 other people in the class and get 3 people to comment on your Part E!)
 **Put the feedback for your ideas here.**
 
+Group 1 - Max Corkran:
+Link: https://github.com/mc3223/Peppers-Ghost 
+Feedback:I love the weekend countdown prison bars idea. It’s humorous in a rebellious sort of way, I think if you lean into the humor as much as possible there, then it’s certainly something I would use haha, even put on my desk at work if I were feeling brave
+
+Group 2 - Aurora Shen
+Link:  https://github.com/aurorajxshen/Interactive-Lab-Hub/tree/Fall2026/Lab%202
+Feedback:
+I really like the idea of visualizing time in shape as rounded flower petals, and having the background as hints for the weather conditions, maybe the petal number can be multiples of 12 so that it matches the time in a more explicit way? And I love the weekend countdown idea! It gives emotional resonance with the faces, I’d use that to count down my work days.
+
+Group 3 - Serena Tsai
+Link: https://github.com/ht534-ui/Interactive-Lab-Hub/tree/Fall2026/Lab%202 
+Feedback: I really like Idea 3 — Weekend Countdown! I think it uses a really interesting and humorous way to show how much of the week has passed, and it represents people’s mood of waiting for the weekend to come really well.
+My only suggestion would be to think more about how users could interact with the clock through the buttons. Adding some button interactions could make the experience even more fun and engaging!"
+
 ## Update your Lab Hub
 
 [Update your Lab Hub](pull_updates/README.md) to get the latest content and requirements for Part 2.
 
 ## Modify the barebones clock to make it your own
 
-Start small, pick just one element of your overall idea, just to show you have a handle on the code and components.
+We started off by making a smiley face in the Pi display, and we eventually added the prison bars on top in our final iteration.
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
+
+smiley.py draws just the weekend smiley face from jail.py, with no bars and no clock. 
 
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your barely modified PiClock.**\*\*\*
 
-After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
-
-```
-(venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 2 $ git add .
-(venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 2 $ git commit -m 'your commit message here'
-(venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 2 $ git push
-```
-
-After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
+[Modified PiClock video](https://github.com/edmkong/Interactive-Lab-Hub/blob/Fall2026/Lab%202/video/modifiedclock.MOV)
 
 ## Now, make your own PiClock
 
@@ -293,11 +303,19 @@ Do take advantage of having done the previous iteration to refine and simplify y
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
+Please look at jail.py for the code. fast_jail.py was used to speed up the clock in order to show the clock moving in the video.
+
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+Please look at final_video.mp4 for the PiClock video.
 
-As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
+[PiClock video](https://github.com/edmkong/Interactive-Lab-Hub/blob/Fall2026/Lab%202/video/final_video.mp4)
 
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab.  Make sure the page for the group turn in is linked to your personal Interactive Lab Hub page. 
+\*\*\***Contributions**\*\*\*
+All members contributed equally to the assignment. Filming of the videos and idea generation was done through group discussions.
+
+The file jail.py and fast_jail.py were written with AI assistance. Audio used for the PiClock videos is used for educational purposes only.
+
+
 
 
