@@ -1,6 +1,7 @@
 # Ph-UI!!!
 
 <details>
+
 	<summary><strong>Instructions for Students (Click to Expand)</strong></summary>
   
 	**Submission Cleanup Reminder:**
@@ -10,6 +11,7 @@
 	- Your final submission should be neat, focused on your own work, and easy to read for grading.
   
 	This helps ensure your README.md is clear, professional, and uniquely yours!
+
 </details>
 
 ---
@@ -17,7 +19,6 @@
 ---
 
 ## Lab Overview
-Team: <canvas group name>  
 Members: Gabriela Yaulli (cgy4, cgyh98), Jacey Hu (ch2296, kakiko1111), Edmond Kong (eck67, edmkong) 
 Project name: Overfill Bowl (Interactive Ozempic)
 
@@ -45,6 +46,10 @@ F) [Final Documentation](#part-f)
 ## Part 1 Lab Preparation
 
 ---
+
+<details>
+
+<summary>Lab instructions</summary>
 
 ### Get the latest content:
 As always, pull updates from the class Interactive-Lab-Hub to both your Pi and your own GitHub repo. As we discussed in the class, there are 3 ways you can do so:
@@ -123,6 +128,8 @@ Option 3: (preferred) use the Github.com interface to update the changes.
 
 ---
 
+</details>
+
 ### Part A
 ### Capacitive Sensing, a.k.a. Human-Twizzler Interaction 
 
@@ -143,6 +150,23 @@ These Twizzlers are connected to pads 6 and 10. When you run the code and touch 
 Twizzler 10 touched!
 Twizzler 6 touched!
 ```
+**What I did**
+- Connected the MPR121 capacitive sensor to the Pi with a Qwiic cable.
+- Ran `cap_test.py`. The script keeps running and waits for a touch, so it doesn't stop by itself.
+- Touched the pads with my finger. Each time, the terminal printed "Twizzler X touched!" with the pad number, so the sensor worked on every pad I tried.
+- This showed the board itself works, so any problem with my doll would come from the connection, not the sensor.
+
+**My object: a plush doll**
+- A plush doll isn't conductive, so touching the fabric does nothing.
+- My doll has a metal ring on top, so I tried to use the ring as the touch point.
+- At first nothing happened. I found out I was using a Qwiic-to-pin cable, which isn't meant for touch pads.
+- I haven't connected the ring yet. Next, I'll use copper tape or a paperclip to link the ring to a pad.
+- I wrote a small script (`ring_test.py`) to print the raw value, baseline, and difference for one pad. This will help me see if the connection is good or weak.
+
+**What I learned**
+- Don't touch the pads when the script starts. The sensor sets its baseline at boot.
+- Only the conductive path reacts. To make the doll's body sensitive, I'd need to hide foil inside and connect it to the ring.
+- Idea: two dolls on two pads. Touching both at once could mean "holding hands."
 
 ---
 
@@ -222,6 +246,19 @@ Connect it to your pi with Qwiic connector and try running the example script to
 
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Proximity_Py) to learn more about the sensor and see other examples
 
+**APDS-9960 (proximity, color, gesture)**
+- First I got `No I2C device at address: 0x39`. I ran `i2cdetect -y 1` and only saw `0x6a`, so I had plugged in the wrong sensor. After switching, it worked.
+- **Proximity:** The value goes from 0 to 255. It gets bigger when my hand gets closer. It isn't a distance in cm. It's how much IR light bounces back, so color and material also matter.
+- **Color:** It prints red, green, blue, and clear (total light). Clear is always the highest. A black object gives low numbers for everything. To tell colors apart, the ratio between R, G, and B matters more than the raw numbers.
+- **Gesture:** I mostly got left and right. Up and down were harder to trigger. The direction depends on how the board is placed, not on how I see it.
+
+**Rotary encoder**
+- Not tested in this lab. We focused on the APDS-9960 and the distance sensor for our design.
+
+**Takeaway**
+- Most errors were hardware, not code. Checking `i2cdetect` first saves a lot of time.
+- The APDS-9960 looks useful for a dining idea. Proximity could tell when a hand reaches for food, and gesture could let people "order" by waving.
+
 ---
 
 ### Part C
@@ -287,25 +324,13 @@ As you develop your Feast Automata concept, consider where the sensor and actuat
 
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
 
-**Sketch 1:** _caption_
+![Five sketches of the Overfill Bowl](images/LAB4_Sketch.jpeg)
 
-![Sketch 1](images/sketch1.jpg)
-
-**Sketch 2:** _caption_
-
-![Sketch 2](images/sketch2.jpg)
-
-**Sketch 3:** _caption_
-
-![Sketch 3](images/sketch3.jpg)
-
-**Sketch 4:** _caption_
-
-![Sketch 4](images/sketch4.jpg)
-
-**Sketch 5:** _caption_
-
-![Sketch 5](images/sketch5.jpg)
+1. **Top-Down Sensing:** An arm holds the distance sensor (VCNL4040) directly above the bowl, facing down, so the reading rises as the food piles higher. A servo at the base of a post on the other side swings a scraper down across the top of the bowl to knock the excess food off.
+2. **Side-Level Sensing:** The sensor stands beside the bowl at rim height, facing across the top of the food. If the food rises above the rim, the bowl counts as overfilled. A servo at the base of a post on the opposite side swings a paddle up and over the bowl to flick the extra food out.
+3. **Lid Rotate:** The sensor stands beside the bowl, and a round lid is mounted on a post next to it. When the bowl is overfilled, the servo rotates the lid horizontally across the top of the bowl, shaving off anything piled above the rim.
+4. **Tilting Platform:** The bowl sits on a flat platform attached to a servo post at one corner. When the sensor detects an overfill, the servo tilts the platform so the excess food slides off. This sketch helps compare whether moving the bowl feels different from moving a paddle.
+5. **Split Different Color:** A variation that sorts food instead of removing it. Colored candies roll down a chute past a color sensor (APDS-9960). Based on the color it reads, the servo at the base turns the chute to drop each candy into one of two bowls, for example green ones into one bowl and everything else into the other.
 
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
@@ -336,7 +361,7 @@ Build a cardboard or other low-fidelity physical prototype of your design.
   <img src="images/IMG_8250.JPG" width="300"/>
 </p>
 
-[▶ Rough prototype video](VIDEO_LINK_HERE)
+[▶ Rough prototype video](https://drive.google.com/file/d/168DqkK3QYZVppgeB0HJ8btrgvo1hoM7H/view?usp=sharing)
 
 ---
 
@@ -441,8 +466,8 @@ Readings are only valid for the exact sensor and bowl positions they were taken 
 - **The sensor measures reflection, not distance.** Because it measures reflected infrared light, a bumped sensor, a shifted bowl, or food landing in a different spot changed readings as much as the pile height did. Fixing everything in place and recalibrating was essential.
 - **Speed comes from how you command the servo.** Moving in small steps looked smooth but had no force behind it. A single jump to the end position, plus using the servo's full pulse range, turned a wiggle into a throw.
 - **Software has limits.** Once the servo was at its full speed and range, the only way to throw harder was mechanical: a longer, lighter paddle that scoops under the edge of the pile.
-- **Timing makes it playful.** The 1-second hold before reacting makes the bowl feel like it's "noticing" the overfill rather than twitching at every spoon.
-
+- **Timing makes it playful.** The 1-second hold before reacting makes the bowl feel like it's "noticing" the overfill rather than twitching at every spoon.  
+<details><summary>Example and optional extensions</summary>
 #### Example Application: Windmill Coaster
 
 Now that you have explored both sensing and actuation, here is a simple example that combines the two.
@@ -593,6 +618,8 @@ This is a playful way to visualize how the expander works, but the same techniqu
 
 ---
 
+</details>
+
 ### Part F
 
 ### Final Documentation
@@ -606,9 +633,10 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 
 **Looks like:** A bowl sits on a marked spot on the table. A Qwiic distance sensor is held above the bowl on a cardboard arm, looking straight down at the food. A micro servo with a paddle is mounted at the rim of the bowl, at the height where extra food piles up, ready to sweep across the top of the pile and fling the excess off to the right.
 
-![Looks like: full prototype](images/looks_like1.JPG)
-
-![Looks like: sensor arm and servo paddle](images/looks_like2.JPG)
+<p float="left">
+  <img src="images/looks_like1.JPG" alt="Looks like: full prototype" width="350"/>
+  <img src="images/looks_like2.JPG" alt="Looks like: sensor arm and servo paddle" width="350"/>
+</p>
 
 **Works like:** The distance sensor measures how high the food is piled. When the reading stays above the overfill threshold for 1 second, the servo winds up and snaps across the bowl twice at full speed, throwing the excess food out. Once the food level drops back down, the device re-arms and waits for the next overfill. A `--throw` mode triggers the same motion manually for testing and demos.
 
