@@ -280,7 +280,9 @@ In this version the device is only a camera. Nothing happens between the person 
 
 **Feedback on my ideas:**
 
-_TBD_
+Feedback from Rohil Saraf (rs2685): The main concern with the original idea is that it's unclear what the device actually does. Frame 3 of the storyboard just shows a light, but it is not obvious to the reader that it is taking a photo. Slide 4 also makes it seem like the device is uploading the photo to the cloud and the person is then viewing the images from a computer. They also mentioned what would happen if someone just passes in front of the camera briefly, to which we explained that the device won't take a photo.
+
+Feedback from Jason Sebastian (js3685): It isn't clear why the person is angry at Slide 5. Also confused about the quiet coyote gesture because Slide 1 makes it look like the user pressed a switch to start the device. They were also wondering if the device uploads photo via WiFi.
 
 <!-- Who gave feedback and what they said, e.g.
 - "What happens when nobody comes? Is a blank report useful?"
@@ -296,7 +298,7 @@ _TBD_
 3. **3 AM.** A stranger in a mask stops at her door and looks around.
 4. **3 AM. CLICK!** The stranger has stayed longer than 10 seconds, so the device takes one photo. He notices and is startled.
 5. **3 AM.** He sits down outside the door. She keeps sleeping. The device logs how long he stays, but it doesn't wake her up.
-6. **7 AM.** She presses A on the device, and the screen reads "1 visit at 3 AM" with his photo. "OMG!"
+6. **7 AM.** She presses A on the device, and the screen reads "1 visit at 3 AM" with the stranger's photo. "OMG!"
 
 **What changed from the first storyboard**
 
